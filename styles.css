@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.scanner-main{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.scanner-main .scanner-header{
+    background-color: rgba(9, 21, 39, 0.3);
+    border-radius: 4px;
+    padding: 14px 12px;
+    font-size: 16px;
+    color: #969696;
+}
+
+.scanner-main .scanner-header span{
+    font-size: 10px;
+}
+
+.scanner-main .scanner-header span a{
+    color: #a7a7a7;
+    
+}
+
+.faceit-banned {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.6;
+    display: inline-block;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    text-transform: initial;
+    border-radius: 2px;
+    padding: 0px 8px;
+    vertical-align: middle;
+}
+
+
+.scanner-main .scanner-bottombox{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding: 14px 12px;
+    font-size: 16px;
+    color: #d1d1d1;
+}
+
+.scanner-profile{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    display: flex;
+    padding: 14px;
+    position: relative;
+    overflow: hidden;
+}
+
+.coverImage{
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+#avatar{
+    width: 3rem;
+    margin-left: 1rem;
+}
+
+#nick{
+    color: white;
+}
+
+#nick:hover{
+    color:aqua ;
+}
