@@ -1,6 +1,7 @@
 # EFS
+## Easy Faceit Stats
 
-
+https://chromewebstore.google.com/detail/easy-faceit-stats/jlmjnaemgeffmeagecimkbnelmpacnbl
 
 ---
 
